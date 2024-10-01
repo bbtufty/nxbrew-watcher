@@ -15,7 +15,7 @@ The easiest way to run NXBrew-watcher is through docker-compose:
 services:
 
   nxbrew-watcher:
-    image: nxbrew-watcher:latest
+    image: ghcr.io/bbtufty/nxbrew-watcher:latest
     container_name: nxbrew-watcher
     network_mode: bridge
     environment:
