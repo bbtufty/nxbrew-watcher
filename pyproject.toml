@@ -1,0 +1,54 @@
+[project]
+
+name = "nxbrew-watcher"
+version = "0.0.1"
+description = "NXBrew watch tools"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+
+authors = [
+    {name = "bbtufty"},
+]
+maintainers = [
+    {name = "bbtufty"},
+]
+
+classifiers = [
+    #   3 - Alpha
+    #   4 - Beta
+    #   5 - Production/Stable
+    "Development Status :: 3 - Alpha",
+
+    # License
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "colorlog>=6.8.2",
+    "discordwebhook>=1.0.3",
+    "emoji>=2.12.2",
+    "pathvalidate>=3.2.0",
+    "requests>=2.31.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bbtufty/nxbrew-watcher"
+"Bug Reports" = "https://github.com/bbtufty/nxbrew-watcher/issues"
+"Source" = "https://github.com/bbtufty/nxbrew-watcher"
+
+[build-system]
+requires = [
+    "setuptools>=43.0.0",
+    "wheel>=0.43.0",
+    "setuptools_scm>=8.1.0",
+]
+
+build-backend = "setuptools.build_meta"
