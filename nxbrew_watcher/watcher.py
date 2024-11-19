@@ -9,11 +9,12 @@ from bs4 import BeautifulSoup
 from .utils import load_json, save_json, setup_logger, discord_push
 
 # NXBrew variables
-NXBREW_URL = "https://nxbrew.com/"
 LATEST_ADDED_ID = "tab-recent-6"
 LATEST_UPDATED_ID = "custom_html-6"
 
 # Pull in environment variables
+NXBREW_URL = os.getenv("NXBREW_URL", None)
+
 CONFIG_DIR = os.getenv("CONFIG_DIR", os.getcwd())
 
 DISCORD_URL = os.getenv("NXBREW_DISCORD_URL", None)
@@ -57,6 +58,9 @@ class NXBrewWatcher:
             self,
     ):
         """Scrape NXBrew for latest additions and updates"""
+
+        if NXBREW_URL is None:
+            raise ValueError("NXBREW_URL environment variable must be set")
 
         self.cache_file = os.path.join(CONFIG_DIR, "nxbrew_cache.json")
         if os.path.exists(self.cache_file):
