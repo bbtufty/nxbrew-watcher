@@ -1,3 +1,8 @@
+0.0.3 (Unreleased)
+==================
+
+- Edit GH actions to run on main
+
 0.0.2 (2024-11-19)
 ==================
 
