@@ -36,7 +36,7 @@ dependencies = [
     "discordwebhook == 1.0.3",
     "emoji == 2.12.2",
     "pathvalidate == 3.2.0",
-    "requests == 2.31.0",
+    "requests == 2.32.2",
 ]
 
 [project.urls]
