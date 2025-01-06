@@ -35,7 +35,7 @@ dependencies = [
     "colorlog == 6.9.0",
     "discordwebhook == 1.0.3",
     "emoji == 2.14.0",
-    "pathvalidate == 3.2.1",
+    "pathvalidate == 3.2.3",
     "requests == 2.32.3",
 ]
 
