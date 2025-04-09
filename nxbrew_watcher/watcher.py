@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from .utils import load_json, save_json, setup_logger, discord_push
 
 # NXBrew variables
-LATEST_ADDED_ID = "tab-recent-6"
+LATEST_ADDED_ID = "tab-recent-7"
 LATEST_UPDATED_ID = "custom_html-6"
 
 # Pull in environment variables
