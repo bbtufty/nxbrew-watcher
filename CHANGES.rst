@@ -1,6 +1,7 @@
-0.0.3 (Unreleased)
+0.1.0 (Unreleased)
 ==================
 
+- Build Docker on every push to main
 - Use exact versions in pyproject.toml
 - Edit GH actions to run on main
 
