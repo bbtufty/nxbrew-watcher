@@ -31,7 +31,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "beautifulsoup4 == 4.14.2",
+    "beautifulsoup4 == 4.14.3",
     "colorlog == 6.10.1",
     "discordwebhook == 1.0.3",
     "emoji == 2.15.0",
