@@ -47,7 +47,7 @@ dependencies = [
 [build-system]
 requires = [
     "setuptools>=43.0.0",
-    "wheel>=0.43.0",
+    "wheel>=0.46.3",
     "setuptools_scm>=8.1.0",
 ]
 
